@@ -72,7 +72,7 @@ mcq_scores = df |> filter(quiz_type == "MCQ") |> pull(percent)
 Run the code box below. It will tell you that the average FRQ score was about 64%.
 
 ```{r}
-mean(frq_scores)
+mean(mcq_scores)
 ```
 
 # 7. Calculate the average MCQ score.
@@ -88,7 +88,7 @@ Edit the code block box below so it's like the one from step 6, but this time fo
 Run the code below. It will make a histogram plot of the FRQ scores.
 
 ```{r}
-hist(frq_scores)
+hist(mcq_scores)
 ```
 
 # 9. Graph the MCQ scores
